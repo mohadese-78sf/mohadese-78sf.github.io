@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "B Nazanin";
+  src: url(B_NAZANIN/B-NAZANIN.TTF) format("TTF");
+}
+body {
+  background-image: url(photorealistic-tree-with-branches-trunk-outside-nature.jpg);
+  background-size: cover;
+}
+.glass_panel {
+  margin-left: 500px;
+  width: 430px;
+  height: 560px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.261);
+  backdrop-filter: blur(3px);
+  text-align: center;
+  margin-top: 70px;
+  /* border: 1px solid rgba(255, 255, 255, 0.3);  */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  /* display: flex; */
+  /* justify-content: center;  */
+}
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(12, 12, 136);
+  /* margin-bottom: 320px; */
+}
+.name {
+  /* background: rgba(255, 255, 255, 0.1);     */
+  text-align: center;
+  display: flex;
+  text-shadow: white;
+  flex-direction: column;
+  /* margin-bottom: 300px; */
+  background: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.description {
+  text-align: center;
+  display: flex;
+
+  flex-direction: column;
+  /* margin-bottom: 270px; */
+  background: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.book {
+  display: flex;
+  background: none;
+  width: 60px;
+  height: auto;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.undericon {
+  background: none;
+
+  font-family: "B Nazanin";
+  src: url(B_NAZANIN/B-NAZANIN.TTF) format("TTF");
+  margin-right: 100px;
+  /* text-size-adjust: initial; */
+  text-align: center;
+  text-justify: newspaper;
+  -ms-text-size-adjust: initial;
+  margin-left: 25px;
+}
+.secound {
+  width: 80px;
+  height: 110px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
+  text-align: center;
+  /* display: inline-flexbox; */
+  display: inline-block;
+}
+.contact {
+  display: flex;
+  background: none;
+  width: 50px;
+  /* height: auto; */
+  align-items: center;
+  /* margin-top: 40px;
+   margin-left: 10px; */
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.third {
+  width: 80px;
+  height: 100px;
+  padding: 5px;
+  /* margin-left: 25px;
+    margin-right: 30px; */
+  margin-top: px;
+  border-radius: 15px;
+  background: none;
+  text-align: center;
+  /* display: inline-flexbox; */
+  display: inline-block;
+}
